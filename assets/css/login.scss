@@ -1,0 +1,54 @@
+@import "reset";
+@import "base";
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: url(../images/login_bg.jpg) center center no-repeat;
+}
+.module-login {
+    width: 310px;
+    height: 330px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -165px;
+    margin-left: -155px;
+    .logo {
+        display: block;
+        width: 288px;
+        height: 81px;
+        background: url(../images/logo_white.png) no-repeat;
+        margin-bottom: 45px;
+    }
+    input {
+        width: 300px;
+        height: 44px;
+        border-radius: 3px;
+        background-color: #fff;
+        box-sizing: border-box;
+        line-height: 44px\9;
+        font-size: 16px;
+        color: #818181;
+        padding-left: 45px;
+        &.user-name {
+            background: #fff url(../images/icon_user.png) 14px center no-repeat;
+        }
+        &.password {
+            background: #fff url(../images/icon_lock.png) 14px center no-repeat;
+        }
+    }
+    button {
+        width: 300px;
+        height: 44px;
+        border-radius: 3px;
+        background-color: #20334b;
+        color: #fff;
+        font-size: 18px;
+        font-family: "Microsoft YaHei";
+    }
+    a {
+        color: #fff;
+    }
+}

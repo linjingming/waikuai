@@ -1,0 +1,61 @@
+/*reset*/
+body, div, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, iframe, input, textarea, select, label, article, aside, footer, header, menu, nav, section, time, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, footer, header, nav, section, audio, canvas, video, img {
+  display: block;
+}
+
+body {
+  font: 14px/1.5 "Microsoft YaHei";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+textarea {
+  resize: none;
+}
+
+iframe, img {
+  border: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+input, select, textarea {
+  outline: 0;
+}
+
+button {
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a {
+  text-decoration: none;
+}
+
+address, caption, cite, dfn, em, th, var, i {
+  font-style: normal;
+  font-weight: normal;
+}
+
+input, button {
+  border: 0 none;
+  font-family: "Microsoft YaHei";
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
