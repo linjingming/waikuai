@@ -24,11 +24,11 @@
 
 .f12{font-size: 12px;}
 .f14{font-size: 14px;}
-.f16{font-size: 16px;}
-.f18{font-size: 18px;}
-.f24{font-size: 24px;}
-.col-white{color: #fff}
-.col-blue{color: #5e88ea;}
+.f16{font-size: 16px!important;}
+.f18{font-size: 18px!important;}
+.f24{font-size: 24px!important;}
+.col-white{color: #fff!important;}
+.col-orange{color: #ff5b01!important;}
 
 .fb{font-weight: bold}
 .no-wrap{white-space: nowrap}
@@ -113,4 +113,19 @@
     width: 26px;
     height: 26px;
     background: url(../images/icon_sh.png) no-repeat;
+}
+.icon-gz {
+    width: 23px;
+    height: 31px;
+    background: url(../images/icon_gz.png) no-repeat;
+}
+.icon-my {
+    width: 25px;
+    height: 25px;
+    background: url(../images/icon_my.png) no-repeat;
+}
+.icon-qy {
+    width: 31px;
+    height: 26px;
+    background: url(../images/icon_qy.png) no-repeat;
 }
