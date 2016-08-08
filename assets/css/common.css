@@ -345,8 +345,43 @@ button {
   text-decoration: underline;
 }
 
+.footer {
+  background: #616161;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+}
+.footer .inner {
+  padding: 24px 0;
+}
+
 .menu-container {
   height: 141px;
+}
+.menu-container.bor-st {
+  border-bottom: 5px solid #01a2ff;
+  padding-bottom: 10px;
+}
+.menu-container.bor-st .main-menu {
+  margin-right: -45px;
+}
+.menu-container.bor-st .main-menu li {
+  margin-right: 45px;
+}
+.menu-container.bor-st .main-menu li a {
+  font-size: 18px;
+}
+.menu-container.bor-st .main-menu li:after {
+  content: ' ';
+  position: absolute;
+  width: 1px;
+  height: 19px;
+  background: #b4b4b4;
+  margin-top: 4px;
+  margin-left: 23px;
+}
+.menu-container.bor-st .main-menu li.last:after {
+  background: #fff;
 }
 .menu-container .logo {
   width: 216px;
@@ -423,6 +458,9 @@ button {
   font-size: 16px;
   color: #444;
 }
+.menu-container .main-menu li a.current {
+  color: #20adff;
+}
 
 .banner-container {
   height: 410px;
@@ -455,6 +493,7 @@ button {
 
 .main-container {
   background: #ededed;
+  padding-bottom: 30px;
 }
 
 .com-part-area {
@@ -616,6 +655,10 @@ button {
 .pic-news-item {
   margin: 20px 0;
   overflow: hidden;
+}
+.pic-news-item.has-pa {
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #ccc;
 }
 .pic-news-item dt {
   padding-left: 5px;
@@ -930,6 +973,8 @@ button {
 .ad-list {
   margin-left: 5px;
   margin-right: -10px;
+  overflow: hidden;
+  padding-bottom: 15px;
 }
 .ad-list li {
   float: left;
@@ -940,4 +985,59 @@ button {
 .ad-list li img {
   width: 100%;
   height: 100%;
+}
+
+.dir-area span {
+  font-family: '\5B8B\4F53';
+  color: #6c6c6c;
+  padding: 0 10px;
+}
+.dir-area a {
+  color: #444;
+}
+
+.page-container {
+  font-size: 0;
+  text-align: center;
+  margin: 20px 0;
+}
+.page-container span, .page-container a {
+  display: inline-block;
+  font-size: 14px;
+  height: 25px;
+  border: 1px solid #e8e8e8;
+  line-height: 25px;
+  padding: 0 12px;
+  margin-left: 10px;
+  color: #666;
+}
+.page-container .page-current {
+  background: #0096ff;
+  color: #fff;
+}
+
+.news-container {
+  padding: 0 16px;
+  margin-top: 15px;
+}
+.news-container .tit {
+  font-size: 20px;
+  color: #444;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  border-bottom: 1px solid #e9e9e9;
+}
+.news-container .source {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #e9e9e9;
+  color: #999;
+  text-align: center;
+}
+.news-container .source span {
+  margin-right: 44px;
+}
+.news-container .news-info {
+  padding: 16px;
 }
