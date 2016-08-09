@@ -352,6 +352,18 @@ button {
   background: url(../images/icon_home.png) no-repeat;
 }
 
+.icon-phone {
+  width: 24px;
+  height: 23px;
+  background: url(../images/icon_phone.png) no-repeat;
+}
+
+.icon-xj {
+  width: 32px;
+  height: 28px;
+  background: url(../images/icon_xj.png) no-repeat;
+}
+
 .btn {
   height: 28px;
   text-align: center;
