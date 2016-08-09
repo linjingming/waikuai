@@ -33,23 +33,26 @@
 .fb{font-weight: bold}
 .no-wrap{white-space: nowrap}
 
-.mt10{margin-top: 10px}
-.mt12{margin-top: 12px}
-.mt14{margin-top: 14px}
-.mt16{margin-top: 16px}
-.mt20{margin-top: 20px}
-.mt40{margin-top: 40px}
-.mt70{margin-top: 70px}
-.mt90{margin-top: 70px}
-.mt100{margin-top: 100px}
-.ml250{margin-left: 250px}
+.mt4{margin-top: 4px!important;}
+.mt8{margin-top: 8px!important;}
+.mt10{margin-top: 10px!important;}
+.mt12{margin-top: 12px!important;}
+.mt14{margin-top: 14px!important;}
+.mt16{margin-top: 16px!important;}
+.mt20{margin-top: 20px!important;}
+.mt40{margin-top: 40px!important;}
+.mt70{margin-top: 70px!important;}
+.mt90{margin-top: 70px!important;}
+.mt100{margin-top: 100px!important;}
+.ml250{margin-left: 250px!important;}
 
-.pl10{padding-left: 10px}
-.pl20{padding-left: 20px}
-.pl30{padding-left: 30px}
-.pt10{padding-top: 10px}
-.pt20{padding-top: 20px}
-.pt30{padding-top: 30px}
+.pl10{padding-left: 10px!important;}
+.pl20{padding-left: 20px!important;}
+.pl30{padding-left: 30px!important;}
+.pt10{padding-top: 10px!important;}
+.pt20{padding-top: 20px!important;}
+.pt30{padding-top: 30px!important;}
+.pb10{padding-bottom: 10px!important;}
 .lh18{line-height: 18px!important;}
 
 .com-wraper{
@@ -128,4 +131,16 @@
     width: 31px;
     height: 26px;
     background: url(../images/icon_qy.png) no-repeat;
+}
+.icon-home {
+    width: 31px;
+    height: 26px;
+    background: url(../images/icon_home.png) no-repeat;
+}
+.btn {
+    @extend %in-block;
+    height: 28px;
+    text-align: center;
+    background: #42b0ff;
+    color: #fff;
 }
