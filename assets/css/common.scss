@@ -97,6 +97,7 @@ body {
         position: absolute;
         width: 224px;
         overflow: hidden;
+        z-index: 9;
         dt {
             height: 35px;
             background: #20adff;
@@ -137,12 +138,18 @@ body {
     }
 }
 .banner-container {
+    position: relative;
     height: 410px;
+    overflow: hidden;
     .banner-list {
+        position: absolute;
+        left: 50%;
+        margin-left: -960px;
         &, li {
             height: 100%;
         }
         li {
+            width: 1920px;
             a {
                 display: block;
             }
@@ -150,7 +157,7 @@ body {
     }
     .baner-page {
         position: absolute;
-        margin-top: -35px;
+        margin-top: 360px;
         margin-left: 560px;
         font-size: 0;
         span {
@@ -187,9 +194,12 @@ body {
     border-bottom: 1px solid #e9e9e9;
     &.sy-tit {
         border-bottom-color: transparent;
-        .tit-st {
-            margin-left: 394px;
-        }
+    }
+    .tip {
+        padding-left: 174px;
+        padding-top: 10px;
+        font-size: 16px;
+        color: #ff6c00;
     }
     .tit-st {
         position: absolute;
@@ -377,8 +387,7 @@ body {
     .pic-news-item {
         float: left;
         width: 430px;
-        margin-right: 94px;
-        margin: 12px 0;
+        margin: 12px 94px 12px 0;
         dt {
             img {
                 width: 162px;
@@ -1160,6 +1169,63 @@ body {
         .check-img {
             height: 28px;
         }
+    }
+    &.reg {
+        padding: 34px 0;
+        border: none;
+        .row-name {
+            font-size: 16px;
+            width: 330px;
+        }
+        .text-in {
+            width: 306px;
+            height: 30px;
+            line-height: 30px\9;
+            border: 1px solid #ccc;
+            padding: 0 5px;
+        }
+        .size-sm {
+            width: 220px;
+        }
+        .btn-get {
+            background: #dedede;
+            height: 32px;
+            vertical-align: middle;
+            color: #5c5c5c;
+            width: 82px;
+        }
+        .btn-row {
+            padding: 0;
+            padding-top: 20px;
+            .btn {
+                font-size: 16px;
+                width: 178px;
+                height: 34px;
+            }
+        }
+        .xieyi {
+            font-size: 12px;
+            padding-top: 20px;
+            input {
+                vertical-align: middle;
+            }
+            a {
+                color: #666;
+            }
+        }
+    }
+    .line {
+        height: 1px;
+        background: #e9e9e9;
+        margin: 34px 0;
+    }
+    .tip {
+        position: absolute;
+        width: 286px;
+        font-size: 12px;
+        color: #ff6c00;
+        margin-top: -3px;
+        margin-left: 5px;
     }
     .btn-row {
         padding-left: 98px;

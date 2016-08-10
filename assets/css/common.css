@@ -372,6 +372,18 @@ button {
   background: url(../images/icon_xj.png) no-repeat;
 }
 
+.icon-user2 {
+  width: 22px;
+  height: 22px;
+  background: url(../images/icon_user3.png) no-repeat;
+}
+
+.icon-lock {
+  width: 21px;
+  height: 28px;
+  background: url(../images/icon_lock2.png) no-repeat;
+}
+
 .btn {
   height: 28px;
   text-align: center;
@@ -472,6 +484,7 @@ button {
   position: absolute;
   width: 224px;
   overflow: hidden;
+  z-index: 9;
 }
 .menu-container .quick-nav dt {
   height: 35px;
@@ -512,17 +525,27 @@ button {
 }
 
 .banner-container {
+  position: relative;
   height: 410px;
+  overflow: hidden;
+}
+.banner-container .banner-list {
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
 }
 .banner-container .banner-list, .banner-container .banner-list li {
   height: 100%;
+}
+.banner-container .banner-list li {
+  width: 1920px;
 }
 .banner-container .banner-list li a {
   display: block;
 }
 .banner-container .baner-page {
   position: absolute;
-  margin-top: -35px;
+  margin-top: 360px;
   margin-left: 560px;
   font-size: 0;
 }
@@ -565,8 +588,11 @@ button {
 .com-tit.sy-tit {
   border-bottom-color: transparent;
 }
-.com-tit.sy-tit .tit-st {
-  margin-left: 394px;
+.com-tit .tip {
+  padding-left: 174px;
+  padding-top: 10px;
+  font-size: 16px;
+  color: #ff6c00;
 }
 .com-tit .tit-st {
   position: absolute;
@@ -756,8 +782,7 @@ button {
 .person-area .pic-news-item {
   float: left;
   width: 430px;
-  margin-right: 94px;
-  margin: 12px 0;
+  margin: 12px 94px 12px 0;
 }
 .person-area .pic-news-item dt img {
   width: 162px;
@@ -1541,6 +1566,63 @@ button {
 }
 .message-form .row .check-img {
   height: 28px;
+}
+.message-form.reg {
+  padding: 34px 0;
+  border: none;
+}
+.message-form.reg .row-name {
+  font-size: 16px;
+  width: 330px;
+}
+.message-form.reg .text-in {
+  width: 306px;
+  height: 30px;
+  line-height: 30px\9;
+  border: 1px solid #ccc;
+  padding: 0 5px;
+}
+.message-form.reg .size-sm {
+  width: 220px;
+}
+.message-form.reg .btn-get {
+  background: #dedede;
+  height: 32px;
+  vertical-align: middle;
+  color: #5c5c5c;
+  width: 82px;
+}
+.message-form.reg .btn-row {
+  padding: 0;
+  padding-top: 20px;
+}
+.message-form.reg .btn-row .btn {
+  font-size: 16px;
+  width: 178px;
+  height: 34px;
+}
+.message-form.reg .xieyi {
+  font-size: 12px;
+  padding-top: 20px;
+}
+.message-form.reg .xieyi input {
+  vertical-align: middle;
+}
+.message-form.reg .xieyi a {
+  color: #666;
+}
+.message-form .line {
+  height: 1px;
+  background: #e9e9e9;
+  margin: 34px 0;
+}
+.message-form .tip {
+  position: absolute;
+  width: 286px;
+  font-size: 12px;
+  color: #ff6c00;
+  margin-top: -3px;
+  margin-left: 5px;
 }
 .message-form .btn-row {
   padding-left: 98px;
