@@ -549,7 +549,7 @@ button {
   margin-left: 560px;
   font-size: 0;
 }
-.banner-container .baner-page span {
+.banner-container .baner-page li {
   display: inline-block;
   width: 56px;
   height: 11px;
@@ -559,7 +559,7 @@ button {
   cursor: pointer;
   margin-right: 18px;
 }
-.banner-container .baner-page span.current {
+.banner-container .baner-page li.on {
   background: #01a2ff;
 }
 
@@ -818,8 +818,9 @@ button {
   height: 208px;
 }
 .slide-area .slide {
-  margin: 0 30px;
+  margin: 0 28px;
   padding: 15px 0;
+  overflow: hidden;
 }
 .slide-area .prev-btn, .slide-area .next-btn {
   position: absolute;

@@ -160,7 +160,7 @@ body {
         margin-top: 360px;
         margin-left: 560px;
         font-size: 0;
-        span {
+        li {
             display: inline-block;
             width: 56px;
             height: 11px;
@@ -169,7 +169,7 @@ body {
             filter: alpha(opacity=50);
             cursor: pointer;
             margin-right: 18px;
-            &.current {
+            &.on {
                 background: #01a2ff;
             }
         }
@@ -423,8 +423,9 @@ body {
     background: #fff;
     height: 208px;
     .slide {
-        margin: 0 30px;
+        margin: 0 28px;
         padding: 15px 0;
+        overflow: hidden;
     }
     .prev-btn, .next-btn {
         position: absolute;

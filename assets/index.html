@@ -66,13 +66,17 @@
         <li>
             <a href="#"><img src="images/bn1.jpg"></a>
         </li>
+        <li>
+            <a href="#"><img src="images/bn1.jpg"></a>
+        </li>
+        <li>
+            <a href="#"><img src="images/bn1.jpg"></a>
+        </li>
     </ul>
     <div class="com-wraper">
-        <div class="baner-page">
-            <span class="current"></span>
-            <span></span>
-            <span></span>
-        </div>
+        <ul class="baner-page">
+
+        </ul>
     </div>
 </div>
 <!-- banner end-->
@@ -126,11 +130,31 @@
         <div class="ad"><a href="#"><img src="images/ad4.jpg"></a></div>
         <!--广告 end-->
         <!-- 企业滚动展示 st -->
-        <div class="slide-area">
-            <a class="prev-btn" href="#"></a>
-            <a class="next-btn" href="#"></a>
+        <div id="slide" class="slide-area">
+            <a class="prev-btn" href="javascript:void(0)"></a>
+            <a class="next-btn" href="javascript:void(0)"></a>
             <div class="slide">
                 <ul class="com-dis-list">
+                    <li>
+                        <a class="pic" href="#"><img src="images/qy1.jpg"></a>
+                        <h3><a href="#">湖南全名鸽业</a></h3>
+                        <p>是一家集科研、繁育、加工、销售为一体的规模化民营企业。</p>
+                    </li>
+                    <li>
+                        <a class="pic" href="#"><img src="images/qy1.jpg"></a>
+                        <h3><a href="#">湖南全名鸽业</a></h3>
+                        <p>是一家集科研、繁育、加工、销售为一体的规模化民营企业。</p>
+                    </li>
+                    <li>
+                        <a class="pic" href="#"><img src="images/qy1.jpg"></a>
+                        <h3><a href="#">湖南全名鸽业</a></h3>
+                        <p>是一家集科研、繁育、加工、销售为一体的规模化民营企业。</p>
+                    </li>
+                    <li>
+                        <a class="pic" href="#"><img src="images/qy1.jpg"></a>
+                        <h3><a href="#">湖南全名鸽业</a></h3>
+                        <p>是一家集科研、繁育、加工、销售为一体的规模化民营企业。</p>
+                    </li>
                     <li>
                         <a class="pic" href="#"><img src="images/qy1.jpg"></a>
                         <h3><a href="#">湖南全名鸽业</a></h3>
@@ -682,5 +706,27 @@
 </div>
 <!-- footer end-->
 <script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script>
+    $(function () {
+        $(".banner-container").slide({
+            mainCell:".banner-list",
+            titCell:".baner-page",
+            effect:"fade",
+            autoPlay:true,
+            autoPage:true,
+            trigger:"click"
+        });
+        $("#slide").slide({
+            mainCell:".slide ul",
+            effect:"left",
+            autoPlay:true,
+            autoPage:true,
+            prevCell:'.prev-btn',
+            nextCell:'.next-btn',
+            vis:5
+        });
+    });
+</script>
 </body>
 </html>
