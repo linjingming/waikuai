@@ -267,6 +267,10 @@ button {
   line-height: 18px !important;
 }
 
+.w-250 {
+  width: 250px;
+}
+
 .com-wraper {
   width: 1000px;
 }
@@ -417,11 +421,11 @@ button {
 }
 
 .menu-container {
-  height: 141px;
+  padding-bottom: 8px;
 }
 .menu-container.bor-st {
   border-bottom: 5px solid #01a2ff;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 .menu-container.bor-st .main-menu {
   margin-right: -45px;
@@ -1709,4 +1713,98 @@ button {
 .auther .t-info p {
   font-size: 18px;
   color: #a1a1a1;
+}
+
+.sub-nav {
+  height: 43px;
+  background: url(../images/usnav_bg.jpg) no-repeat;
+}
+.sub-nav .nav-ul {
+  float: left;
+  padding-top: 10px;
+  height: 22px;
+  line-height: 22px;
+}
+.sub-nav .nav-ul li {
+  float: left;
+  border-right: 1px solid #fff;
+  padding: 0 30px;
+}
+.sub-nav .nav-ul li a {
+  color: #fff;
+}
+.sub-nav .gl-btn {
+  float: right;
+  height: 27px;
+  line-height: 27px;
+  color: #414141;
+  background: #fff;
+  text-align: center;
+  padding: 0 12px;
+  border-radius: 3px;
+  margin: 8px 8px 0 0;
+}
+
+.us-com-mod {
+  background: #fff;
+  margin-right: 10px;
+}
+.us-com-mod .tit {
+  height: 38px;
+  line-height: 38px;
+  color: #fff;
+  padding-left: 10px;
+  font-size: 16px;
+  background: #01a2ff;
+}
+.us-com-mod .cont {
+  min-height: 475px;
+}
+.us-com-mod .gz-list li {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+.us-com-mod .gz-list li .dian {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: #c6c6c6;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.us-com-mod .gz-list li a {
+  color: #c6c6c6;
+}
+.us-com-mod .gz-list li a:hover, .us-com-mod .gz-list li a.active {
+  color: #01a2ff;
+}
+.us-com-mod .gz-list li a:hover .dian, .us-com-mod .gz-list li a.active .dian {
+  background: #01a2ff;
+}
+
+.us-right-part {
+  background: #fff;
+  padding: 10px;
+}
+
+.focus {
+  width: 348px;
+  height: 262px;
+  position: relative;
+}
+
+.focus-page {
+  font-size: 0;
+}
+.focus-page li {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background: #000;
+  opacity: 0.5;
+}
+.focus-page li.on {
+  opacity: 1;
+  background: #01a2ff;
 }

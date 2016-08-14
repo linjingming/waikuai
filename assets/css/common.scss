@@ -29,10 +29,10 @@ body {
     }
 }
 .menu-container {
-    height: 141px;
+    padding-bottom: 8px;
     &.bor-st {
         border-bottom: 5px solid #01a2ff;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
         .main-menu {
             margin-right: -45px;
             li {
@@ -1307,6 +1307,100 @@ body {
         p {
             font-size: 18px;
             color: #a1a1a1;
+        }
+    }
+}
+.sub-nav {
+    height: 43px;
+    background: url(../images/usnav_bg.jpg) no-repeat;
+    .nav-ul {
+        float: left;
+        padding-top: 10px;
+        height: 22px;
+        line-height: 22px;
+        li {
+            float: left;
+            border-right: 1px solid #fff;
+            padding: 0 30px;
+            a {
+                color: #fff;
+            }
+        }
+    }
+    .gl-btn {
+        float: right;
+        height: 27px;
+        line-height: 27px;
+        color: #414141;
+        background: #fff;
+        text-align: center;
+        padding: 0 12px;
+        border-radius: 3px;
+        margin: 8px 8px 0 0;
+    }
+}
+.us-com-mod {
+    background: #fff;
+    margin-right: 10px;
+    .tit {
+        height: 38px;
+        line-height: 38px;
+        color: #fff;
+        padding-left: 10px;
+        font-size: 16px;
+        background: #01a2ff;
+    }
+    .cont {
+        min-height: 475px;
+    }
+    .gz-list {
+        li {
+            height: 30px;
+            line-height: 30px;
+            padding-left: 10px;
+            .dian {
+                display: inline-block;
+                width: 5px;
+                height: 5px;
+                background: #c6c6c6;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+            a {
+                color: #c6c6c6;
+                &:hover, &.active {
+                    color: #01a2ff;
+                    .dian {
+                        background: #01a2ff;
+                    }
+                }
+            }
+        }
+    }
+}
+.us-right-part {
+    background: #fff;
+    padding: 10px;
+}
+.focus {
+    width: 348px;
+    height: 262px;
+    position: relative;
+}
+.focus-list {
+
+}
+.focus-page {
+    font-size: 0;
+    li {
+        display: inline-block;
+        width: 9px;
+        height: 9px;
+        background: #000;
+        opacity: 0.5;
+        &.on {
+            opacity: 1;
+            background: #01a2ff;
         }
     }
 }

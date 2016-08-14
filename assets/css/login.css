@@ -267,6 +267,10 @@ button {
   line-height: 18px !important;
 }
 
+.w-250 {
+  width: 250px;
+}
+
 .com-wraper {
   width: 1000px;
 }
