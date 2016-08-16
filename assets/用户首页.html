@@ -84,9 +84,6 @@
                             <li><img src="images/jdt.jpg"> </li>
                         </ul>
                         <ul class="focus-page">
-                            <li class="on"></li>
-                            <li></li>
-                            <li></li>
                         </ul>
                     </div>
 
@@ -145,7 +142,7 @@
                     <span class="j"></span>
                     <span class="z"></span>
                 </div>
-                <a class="more" href="#">更多</a>
+                <a class="more col-blue" href="#">更多</a>
             </div>
             <div class="com-cont-inner2">
                 <div class="ov-hi">
@@ -210,5 +207,18 @@
 </div>
 <!-- footer end-->
 <script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script>
+    $(function () {
+        $(".focus").slide({
+            mainCell:".focus-list",
+            titCell:".focus-page",
+            effect:"fade",
+            autoPlay:true,
+            autoPage:true,
+            trigger:"click"
+        });
+    });
+</script>
 </body>
 </html>

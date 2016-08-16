@@ -325,6 +325,12 @@
   background: url(../images/icon_lock2.png) no-repeat;
 }
 
+.icon-one {
+  width: 33px;
+  height: 30px;
+  background: url(../images/icon_one.png) no-repeat;
+}
+
 .btn {
   height: 28px;
   text-align: center;

@@ -388,6 +388,12 @@ button {
   background: url(../images/icon_lock2.png) no-repeat;
 }
 
+.icon-one {
+  width: 33px;
+  height: 30px;
+  background: url(../images/icon_one.png) no-repeat;
+}
+
 .btn {
   height: 28px;
   text-align: center;
@@ -634,7 +640,7 @@ button {
   right: -14px;
   top: 7px;
 }
-.com-tit .st1 {
+.com-tit .st1, .com-tit .st11 {
   background: #01a2ff;
 }
 .com-tit .st2 {
@@ -645,6 +651,9 @@ button {
 }
 .com-tit .st2 .icon {
   margin-left: 20px;
+}
+.com-tit .st11 .icon {
+  margin-left: 15px;
 }
 .com-tit .st5 {
   background: #ff6464;
@@ -1058,6 +1067,25 @@ button {
   line-height: 28px;
   font-size: 14px;
 }
+.com-dis-list2.list-st2 {
+  margin-right: -16px;
+}
+.com-dis-list2.list-st2 li {
+  width: 232px;
+  height: auto;
+  margin-right: 14px;
+  margin-bottom: 25px;
+}
+.com-dis-list2.list-st2 li .pic {
+  width: 230px;
+  height: 176px;
+  border: 1px solid #e4ecf0;
+}
+.com-dis-list2.list-st2 li h3 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
 
 .ad-list {
   margin-left: 5px;
@@ -1196,6 +1224,11 @@ button {
   margin-right: 15px;
   float: left;
 }
+.col-2 .left-smer {
+  width: 218px;
+  margin-right: 28px;
+  float: left;
+}
 .col-2 .main {
   overflow: hidden;
 }
@@ -1265,13 +1298,12 @@ button {
 .ph-tab li {
   font-size: 16px;
   line-height: 1;
-  width: 80px;
   text-align: center;
   float: left;
   cursor: pointer;
   border-bottom: 3px solid transparent;
   color: #999;
-  padding: 8px 0;
+  padding: 8px 5px;
   margin-bottom: -1px;
   margin-right: 5px;
 }
@@ -1386,16 +1418,22 @@ button {
   width: 163px;
   height: 125px;
 }
-.sp-list.list-st2 {
+.sp-list.list-st2, .sp-list.list-st6 {
   padding: 25px 0 0 6px;
 }
-.sp-list.list-st2 li {
+.sp-list.list-st2 li, .sp-list.list-st6 li {
   width: 222px;
   margin-right: 15px;
 }
-.sp-list.list-st2 li .pic {
+.sp-list.list-st2 li .pic, .sp-list.list-st6 li .pic {
   width: 222px;
   height: 156px;
+}
+.sp-list.list-st6 {
+  padding: 15px 0 0 4px;
+}
+.sp-list.list-st6 li {
+  margin-right: 25px;
 }
 .sp-list.list-st3 {
   padding: 25px 0 0 4px;
@@ -1645,6 +1683,12 @@ button {
   width: 94px;
 }
 
+.us-message-box .message-form {
+  border: none;
+  background: #f1f1f1;
+  padding-bottom: 15px;
+}
+
 .city-sel {
   overflow: hidden;
   border-bottom: 1px solid #e9e9e9;
@@ -1859,4 +1903,42 @@ button {
 .tbtj .cont {
   padding-top: 10px;
   padding-left: 4px;
+}
+
+.record {
+  border-left: 5px solid #eee;
+  padding-left: 20px;
+  padding-bottom: 60px;
+  margin: 10px 0 0 25px;
+}
+.record dt {
+  color: #01a2ff;
+  font-size: 16px;
+  line-height: 1;
+  height: 30px;
+}
+.record dt:before {
+  content: ' ';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #01a2ff;
+  margin-left: -30px;
+}
+.record dd {
+  line-height: 30px;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.consult {
+  padding-left: 18px;
+  background: url(../images/icon_zx.png) left center no-repeat;
+}
+
+.bank {
+  border: 1px solid #ffb852;
+  background: #fffdeb;
+  padding: 10px 20px;
 }
